@@ -27,7 +27,7 @@ Check out my [starred repositories](https://github.com/PeytonNowlin?tab=stars) �
 
 ## 📊 GitHub Analytics
 
-(https://github-readme-streak-stats.herokuapp.com/?user=PeytonNowlin&theme=radical&hide_border=true&background=1a1b27&stroke=0891b2&ring=0891b2&fire=0891b2&dates=ffffff)
+![GitHub Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=PeytonNowlin&theme=radical&hide_border=true&background=1a1b27&stroke=0891b2&ring=0891b2&fire=0891b2&dates=ffffff)
 
 ## 💡 Current Expertise
 
