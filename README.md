@@ -27,11 +27,7 @@ Check out my [starred repositories](https://github.com/PeytonNowlin?tab=stars) �
 
 ## 📊 GitHub Analytics
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=PeytonNowlin&show_icons=true&theme=radical&hide_border=true&bg_color=1a1b27&title_color=0891b2&icon_color=0891b2)
-
-![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=PeytonNowlin&layout=compact&theme=radical&hide_border=true&bg_color=1a1b27&title_color=0891b2)
-
-![Contribution Graph](https://github-readme-streak-stats.herokuapp.com/?user=PeytonNowlin&theme=radical&hide_border=true&background=1a1b27&stroke=0891b2&ring=0891b2&fire=0891b2&dates=ffffff)
+(https://github-readme-streak-stats.herokuapp.com/?user=PeytonNowlin&theme=radical&hide_border=true&background=1a1b27&stroke=0891b2&ring=0891b2&fire=0891b2&dates=ffffff)
 
 ## 💡 Current Expertise
 
