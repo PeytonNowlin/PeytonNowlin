@@ -1,54 +1,33 @@
-# Hey there! 👋 Welcome to my GitHub
+# Peyton Nowlin
 
-Full Stack Developer & Database Administrator passionate about leveraging AI, building robust database architectures, and optimizing search experiences. I specialize in creating high-performance, scalable solutions across the entire tech stack.
+Full-stack engineer working on search infrastructure, data pipelines, and AI systems in the automotive aftermarket.
 
-## 🚀 About Me
+I build software that runs at scale: search infrastructure behind hundreds of e-commerce sites, databases holding hundreds of millions of rows, and AI systems built for production rather than demos. Most of my work sits at the intersection of hard data problems and infrastructure that cannot go down.
 
-- 💻 Full Stack Developer with DBA expertise
-- 🤖 AI integration specialist — mastering modern AI tools and workflows
-- 🗄️ Database architect designing and optimizing complex data structures
-- 🔍 Search optimization expert with Meilisearch & Algolia experience
-- 📚 Continuous learner staying ahead in emerging technologies
-- ⚡ Building production-grade applications with attention to performance and security
+## What I work on
 
-## 🛠️ Technical Expertise
+**Search at scale.** Design and operation of self-hosted search infrastructure serving hundreds of production e-commerce sites: index architecture, caching strategy, and load testing to sub-15ms hot p95 latency.
 
-- **AI & Automation:** Advanced AI tool usage, LLM integration, prompt engineering
-- **Languages:** Python, SQL, PHP, JavaScript/TypeScript
-- **Databases:** Advanced SQL optimization, MongoDB, PostgreSQL, Redis, data modeling
-- **Search:** Meilisearch, Algolia, full-text search implementation
-- **Backend:** Node.js, Express, Python frameworks, API design
-- **Frontend:** React, Vue.js, responsive UI/UX
-- **DevOps:** Docker, CI/CD pipelines, database administration
+**Automotive data standards.** Deep expertise in ACES and PIES (VCDB, PCdb, PAdb, Qdb), fitment architecture, and the data modeling problems unique to the aftermarket. Author of an open-source ACES 4.2 validator built in Rust with DuckDB and SARIF output.
 
-## ⭐ Starred Projects
+**AI infrastructure.** Building internal AI platforms and MCP servers that connect LLM tooling to production data systems, with the auth, policy, and cost controls that requires.
 
-Check out my [starred repositories](https://github.com/PeytonNowlin?tab=stars) — they represent the projects and technologies I find most valuable and inspiring!
+**Databases under load.** MariaDB at scale: query optimization, schema design, ingestion pipeline tuning, and diagnosing the failure modes that only show up in production.
 
-## 📊 GitHub Analytics
+## Selected projects
 
-![GitHub Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=PeytonNowlin&theme=radical&hide_border=true&background=1a1b27&stroke=0891b2&ring=0891b2&fire=0891b2&dates=ffffff)
+| Project | Description |
+|---|---|
+| **ACES 4.2 Validator** | Open-source validation tooling for ACES XML. Rust, DuckDB, SARIF output for CI integration. |
+| **Nebula** | A statically typed language for AI agent authoring that compiles to Python. Compiler written in Rust. |
 
-## 💡 Current Expertise
+## Stack
 
-- 🔭 **Specialization:** Full-stack development with database optimization and AI integration
-- 🤖 **AI Focus:** Advanced AI tool mastery and intelligent system architecture
-- 🔍 **Search Tech:** Production-grade search implementations with Meilisearch & Algolia
-- 🗄️ **Database Work:** Complex query optimization, data modeling, performance tuning
+**Languages:** TypeScript, Python, PHP, Rust, SQL
+**Data:** MariaDB/MySQL, Redis, DuckDB, Meilisearch, Algolia
+**Backend:** Node.js, FastAPI, FastMCP, CodeIgniter
+**Infrastructure:** GCP, Plesk, Docker, Linux server administration
 
-## 🏆 Key Competencies
+## Contact
 
-| Area | Expertise |
-|------|-----------|
-| **Backend Development** | Python, PHP, Node.js, SQL optimization |
-| **Database Architecture** | Schema design, indexing, query optimization |
-| **AI Integration** | LLM integration, AI tool automation workflows |
-| **Search Solutions** | Meilisearch setup & optimization, Algolia implementation |
-| **Full Stack** | End-to-end application development |
-| **Performance** | Database tuning, caching strategies, search optimization |
-
----
-
-**Exploring innovative solutions at the intersection of databases, AI, and scalable architecture.** 🚀
-
-*Feel free to explore my repositories and reach out for collaboration opportunities!*
+Open to conversations about search infrastructure, aftermarket data standards, and AI tooling.
