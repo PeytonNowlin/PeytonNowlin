@@ -1,6 +1,6 @@
 # Peyton Nowlin
 
-Full-stack engineer working on search infrastructure, data pipelines, and AI systems in the automotive aftermarket.
+Full-stack Software engineer working on search infrastructure, data pipelines, and AI systems in the automotive aftermarket.
 
 I build software that runs at scale: search infrastructure behind hundreds of e-commerce sites, databases holding hundreds of millions of rows, and AI systems built for production rather than demos. Most of my work sits at the intersection of hard data problems and infrastructure that cannot go down.
 
