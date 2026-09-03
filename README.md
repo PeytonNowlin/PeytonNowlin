@@ -1,33 +1,62 @@
 # Peyton Nowlin
 
-Full-stack Software engineer working on search infrastructure, data pipelines, and AI systems in the automotive aftermarket.
+### Software engineer building production systems for search, data, and AI.
 
-I build software that runs at scale: search infrastructure behind hundreds of e-commerce sites, databases holding hundreds of millions of rows, and AI systems built for production rather than demos. Most of my work sits at the intersection of hard data problems and infrastructure that cannot go down.
+I design, modernize, and operate software that sits directly in the path of real business traffic.
 
-## What I work on
+My work includes search infrastructure serving hundreds of e-commerce sites, high-volume automotive fitment APIs, ingestion pipelines processing millions of product records, large relational databases, and AI tooling connected to production systems.
 
-**Search at scale.** Design and operation of self-hosted search infrastructure serving hundreds of production e-commerce sites: index architecture, caching strategy, and load testing to sub-15ms hot p95 latency.
+I am most effective where domain complexity, legacy architecture, and reliability requirements collide. I care about measurable performance, observability, safe migrations, strong testing, and systems that remain maintainable long after the initial implementation.
 
-**Automotive data standards.** Deep expertise in ACES and PIES (VCDB, PCdb, PAdb, Qdb), fitment architecture, and the data modeling problems unique to the aftermarket. Author of an open-source ACES 4.2 validator built in Rust with DuckDB and SARIF output.
+## Areas of focus
 
-**AI infrastructure.** Building internal AI platforms and MCP servers that connect LLM tooling to production data systems, with the auth, policy, and cost controls that requires.
+### Search and discovery
 
-**Databases under load.** MariaDB at scale: query optimization, schema design, ingestion pipeline tuning, and diagnosing the failure modes that only show up in production.
+Designing and operating multi-tenant search infrastructure for large e-commerce platforms.
+
+My work spans index architecture, relevance, faceting, filtering, caching, load testing, zero-downtime migrations, and production operations. I have worked with both managed and self-hosted search platforms, including infrastructure delivering sub-15ms hot p95 latency.
+
+### Automotive aftermarket data
+
+Working deeply with the ACES and PIES ecosystems, including VCDB, PCdb, PAdb, Qdb, vehicle fitment, taxonomy, product normalization, and validation.
+
+Aftermarket data has its own class of difficult engineering problems: incomplete standards coverage, inconsistent supplier data, millions of product-to-vehicle relationships, and systems that must remain accurate across constantly changing catalogs.
+
+### AI systems and developer tooling
+
+Building MCP servers, agent workflows, and internal AI platforms that connect language models to source control, business data, and operational systems.
+
+The interesting work is not calling a model API. It is building the surrounding infrastructure: authentication, authorization, policy enforcement, context management, observability, evaluation, failure handling, and cost control.
+
+### Backend and platform engineering
+
+Modernizing legacy applications, designing APIs and background workers, tuning databases under production load, and improving the reliability of business-critical systems.
+
+This includes schema design, query optimization, queue architecture, incident response, telemetry, automated testing, deployment safety, and incremental migrations that cannot interrupt existing users.
 
 ## Selected projects
 
 | Project | Description |
 |---|---|
-| **ACES 4.2 Validator** | Open-source validation tooling for ACES XML. Rust, DuckDB, SARIF output for CI integration. |
-| **Nebula** | A statically typed language for AI agent authoring that compiles to Python. Compiler written in Rust. |
+| **Openleaf** | An open-source, ProseMirror-based editor designed for integration into existing content platforms, with structured APIs and agent-accessible tooling. |
+| **ACES 4.2 Validator** | Open-source validation tooling for ACES XML, built with Rust and DuckDB, with SARIF output for CI integration. |
+| **Nebula** | A statically typed language for authoring AI agents that compiles to Python. The compiler is written in Rust. |
 
-## Stack
+## Technology
 
-**Languages:** TypeScript, Python, PHP, Rust, SQL
-**Data:** MariaDB/MySQL, Redis, DuckDB, Meilisearch, Algolia
-**Backend:** Node.js, FastAPI, FastMCP, CodeIgniter
-**Infrastructure:** GCP, Plesk, Docker, Linux server administration
+**Languages:** TypeScript, Go, Python, PHP, Rust, SQL  
+**Backend:** Node.js, FastAPI, FastMCP, CodeIgniter  
+**Data:** MariaDB, MySQL, Redis, DuckDB  
+**Search:** Meilisearch, Algolia  
+**Infrastructure:** GCP, Docker, Linux, Nginx, Plesk, GitHub Actions  
+**Domains:** E-commerce, automotive fitment, search, data pipelines, AI infrastructure
 
-## Contact
+## Engineering approach
 
-Open to conversations about search infrastructure, aftermarket data standards, and AI tooling.
+I prefer production evidence over assumptions.
+
+That means profiling before optimizing, designing migrations with rollback paths, treating observability as part of the feature, automating repetitive verification, and using AI to accelerate engineering without outsourcing engineering judgment.
+
+## Connect
+
+I am always interested in conversations around search infrastructure, automotive aftermarket data, platform modernization, AI tooling, and difficult production systems.
